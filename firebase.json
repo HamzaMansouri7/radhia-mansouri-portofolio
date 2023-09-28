@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dist/RADHIA-MANSOURI-DEV",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
